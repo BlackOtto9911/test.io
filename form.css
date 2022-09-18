@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #222222;
+}
+
+/**/
+.main-container{
+    width: 70vw;
+    height: 90vh;
+    margin: 80px auto;
+
+    box-shadow: 0 0 50px #000;
+}
+/**/
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #65daff;
+}
+.flex-div{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.nav p{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 60px;
+}
+
+/**/
+label{
+    color: #fff;
+    font-size: 23px;
+    margin: 0 20px;
+}
+.form{
+    position: relative;
+    top: 150px;
+    width: 60%;
+    margin: 0 auto;
+}
+.nickname{
+    border: 1px solid #fff;
+    padding: 25px 38px;
+}
+.nickname input{
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    padding-top: 20px;
+
+    font-size: 23px;
+    color: #fff;
+
+}
+.nickname legend{
+    font-size: 23px;
+    color: #fff;
+}
+.nickname input::placeholder{
+    font-size: 20px;
+    color: #939393;
+}
+
+/**/
+
+.gender input, .age input{
+    transform: scale(1.5) translateY(-1px);
+}
+.gender p{
+    font-size: 23px;
+    color: #fff;
+    margin: 40px 0;
+}
+
+.age{
+    margin: 40px 0;
+}
+
+.discipline label{
+    margin: 0;
+    margin-right: 30px;
+}
+.discipline select{
+    height: 50px;
+    font-size: 20px;
+}
+
+.textarea{
+    margin: 40px 0;
+}
+.textarea textarea{
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 23px;
+    color: #fff;
+}
+
+/**/
+input[type="submit"]{
+    display: block;
+    margin: 30px auto;
+    padding: 25px 85px;
+    font-size: 23px;
+    color: #fff;
+    background-image: linear-gradient(to right, #65daff, #6ffdce);
+}
+
+textarea::placeholder{
+    padding: 20px;
+}
+
+input, select, textarea{
+    outline: none;
+}
+select{
+    border-radius: 7px;
+
+}

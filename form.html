@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav">
+            <div class="flex-div">
+                <a href="lending.html"> &lt; </a>
+                <p>Заявка на вступление</p>
+            </div>
+        </div>
+    
+        <div class="form">
+            <form action="#">
+                <fieldset class="nickname">
+                    <legend>Ваш никнейм в реальной жизни :)</legend>
+                    <input type="text" placeholder="Имя">
+                    <br>
+                    <input type="text" placeholder="Фамилия">
+                </fieldset>
+    
+                <div class="gender">
+                    <p>Ваш пол</p>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">М</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Ж</label>
+                </div>
+    
+                <div class="age">
+                    <input type="checkbox" name="age" id="age">
+                    <label for="age">Мне есть 18</label>
+                </div>
+    
+                <div class="discipline">
+                    <label for="games">Ваша дисциплина</label>
+                    <select name="discipline" id="games">
+                        <option value="first">CS:GO</option>
+                        <option value="second">Dota2</option>
+                        <option value="third">Apex legend</option>
+                    </select>
+                </div>
+    
+                <div class="textarea">
+                    <textarea name="text" id="self" placeholder="Дополнительная информация"></textarea>
+                </div>
+    
+                <input type="submit" value="Отправить заявку">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
